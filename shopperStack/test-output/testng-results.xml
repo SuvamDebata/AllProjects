@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-28T12:28:45 IST" name="Default suite" finished-at="2024-08-28T12:29:04 IST" duration-ms="18331">
+    <groups>
+    </groups>
+    <test started-at="2024-08-28T12:28:45 IST" name="Default test" finished-at="2024-08-28T12:29:04 IST" duration-ms="18331">
+      <class name="shopperStack.End2End">
+        <test-method signature="login()[pri:0, instance:shopperStack.End2End@815b41f]" started-at="2024-08-28T12:28:45 IST" name="login" finished-at="2024-08-28T12:28:50 IST" duration-ms="4629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="register()[pri:0, instance:shopperStack.End2End@815b41f]" started-at="2024-08-28T12:28:50 IST" name="register" finished-at="2024-08-28T12:28:52 IST" duration-ms="1846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="getAllProducts()[pri:0, instance:shopperStack.End2End@815b41f]" started-at="2024-08-28T12:28:52 IST" name="getAllProducts" finished-at="2024-08-28T12:28:55 IST" depends-on-methods="shopperStack.End2End.login" duration-ms="3384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllProducts -->
+        <test-method signature="address()[pri:0, instance:shopperStack.End2End@815b41f]" started-at="2024-08-28T12:28:55 IST" name="address" finished-at="2024-08-28T12:28:56 IST" depends-on-methods="shopperStack.End2End.getAllProducts" duration-ms="1241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- address -->
+        <test-method signature="cart()[pri:0, instance:shopperStack.End2End@815b41f]" started-at="2024-08-28T12:28:56 IST" name="cart" finished-at="2024-08-28T12:28:58 IST" depends-on-methods="shopperStack.End2End.getAllProducts" duration-ms="1217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cart -->
+        <test-method signature="wishlist()[pri:0, instance:shopperStack.End2End@815b41f]" started-at="2024-08-28T12:28:58 IST" name="wishlist" finished-at="2024-08-28T12:28:59 IST" depends-on-methods="shopperStack.End2End.getAllProducts" duration-ms="1183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wishlist -->
+        <test-method signature="placeOrder()[pri:0, instance:shopperStack.End2End@815b41f]" started-at="2024-08-28T12:28:59 IST" name="placeOrder" finished-at="2024-08-28T12:29:00 IST" depends-on-methods="shopperStack.End2End.address" duration-ms="1238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrder -->
+        <test-method signature="getOrder()[pri:0, instance:shopperStack.End2End@815b41f]" started-at="2024-08-28T12:29:00 IST" name="getOrder" finished-at="2024-08-28T12:29:01 IST" depends-on-methods="shopperStack.End2End.placeOrder" duration-ms="1126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getOrder -->
+        <test-method signature="updateOrder()[pri:0, instance:shopperStack.End2End@815b41f]" started-at="2024-08-28T12:29:01 IST" name="updateOrder" finished-at="2024-08-28T12:29:03 IST" depends-on-methods="shopperStack.End2End.getOrder" duration-ms="1278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateOrder -->
+        <test-method signature="invoiceOrder()[pri:0, instance:shopperStack.End2End@815b41f]" started-at="2024-08-28T12:29:03 IST" name="invoiceOrder" finished-at="2024-08-28T12:29:04 IST" depends-on-methods="shopperStack.End2End.updateOrder" duration-ms="1013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invoiceOrder -->
+      </class> <!-- shopperStack.End2End -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
